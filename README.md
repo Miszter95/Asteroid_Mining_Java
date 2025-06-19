@@ -1,4 +1,4 @@
-# Asteroid Mining Java
+# Asteroid Mining - Java
 
 Humanity has decided to exploit the potential of asteroid mining. To do this, colonists need to build a space base in the asteroid belt. The resources required for construction would be too expensive to transport there, so they must be extracted from the asteroids.
 
