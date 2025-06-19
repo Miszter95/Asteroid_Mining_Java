@@ -1,0 +1,73 @@
+Az emberiség elhatározta, hogy kiaknázza az aszteroidabányászatban rejlõ
+lehetõségeket. Ehhez a telepeseknek fel kell építeniük egy ûrbázist az
+aszteroidaövben. Az építéshez szükséges erõforrásokat túlságosan drága
+lenne odavinni, így azokat az aszteroidákból kell kinyerni.
+
+A játék 2-4 telepessel játszható. A játékosok a telepeseket irányítják.
+A telepesek egyszemélyes ûrhajókkal járják az aszteroidákat megfelelõ
+nyersanyagok után kutatva.
+
+Az aszteroidák külsejét különbözõ vastagságú sziklarétegek borítják.
+A fontos nyersanyagok (vízjég, vas, szén, urán stb.) az aszteroidák magjában
+találhatók. A nyersanyagok egy része (például az urán) erõsen radioaktív.
+Vannak üreges aszteroidák is, amelyek magja üreges, bennük nem található
+nyersanyag. Az aszteroidák magja mindig homogén, nem keverednek benne
+a különbözõ anyagok.
+
+Egy telepes egy lépésben egyfajta mûveletet hajthat végre. Többfajta mûvelet
+is van, például mozgás, fúrás, bányászat,robotépítés, teleportkapupár-építés stb.
+Mozgás során a telepes az ûrhajójávalátmegy egy szomszédos aszteroidára
+(minden aszteriodának néhány, esetenként több száz szomszédja van). Fúrás során
+a telepes egy egységnyivel tudja mélyíteni az aszteroida köpenyébe fúrt lyukat.
+Bányászat során a telepes kinyeri a fúrt lyukon keresztül az aszteroida magjában
+található erõforrást, de ez a lépés csak akkor lehetséges, ha az aszteroida köpenyét
+már sikerült teljesen átfúrni. Egy telepesnél legfeljebb 10 egységnyi nyersanyag lehet,
+ennél több nem fér az ûrhajóba. Üreges aszteroidába azonban egy mûveletként
+visszahelyezhetõ egy egységnyi anyag.
+
+A telepesekre veszélyek is leselkednek. Ha egy teljesen megfúrt, radioaktív
+maggal rendelkezõ aszteroida éppen napközelben van és az uránnak ez a 3.
+kitetsége a napnak, akkor az aszteroida felrobban, ami megöli a rajta levõ
+telepeseket. A radioaktív anyag (urán) csak a 3. expozíció során robban fel.
+Veszélyt jelentenek a telepesekre a napviharok is, amelyek idõnként elérik az
+aszteroidaövet. A napvihar csak úgy élhetõ túl, ha a telepes egy üreges aszteroida
+magjában bújik meg. Természetesen elõtte a maghoz le kell fúrni. A napszél mindig
+csak egy szûk területen támad, nem egyszerre mindenhol. Így mindig van terület
+(aszteroida és/vagy kapu), amit éppen nem ér el. Ha egy telepes napszélben hal meg,
+akkor eldob (random) egyet a nála lévõ nyersanyagok közül, amely az adott
+aszteroida felszínére kerül.
+
+Az aszteroidaövben Ufók garázdálkodnak. Õk is a szomszédos aszteroidák között
+mozognak, használják a kapukat, de csak nyersanyag-felvételre képesek (kifúrt
+aszteroidán), fúrni nem. Bármennyi nyersanyagot be tudnak gyûjteni.
+
+Napközelben a teljesen megfúrt aszteroidában levõ vízjég szublimál (eltûnik).
+
+A telepeseket egy egységnyi vas, egy egységnyi szén és egy egységnyi urán
+felhasználásával mesterséges intelligencia által vezérelt autonóm robotot hozhatnak
+létre. Ezek a robotok csak szomszédos aszteroidák közötti mozgásra és fúrásra
+képesek. A robotok bányászni nem tudnak, mert nyersanyagot nem tudnak
+magukkal vinni. A robotok azonban túlélik a radioaktív robbanást, és ilyenkor
+valamelyik szomszédos aszteroidán landolnak. A napvihar azonban a robotokat is
+tönkreteszi, ha nem bújnak el egy üreges aszteroidában. Ha egy robot meghal eldob
+(random) egyet az õt felépítõ nyersanyagok közül, amely hasonlóan a telepesnél, az
+adott aszteroida felszínére kerül.
+
+Két egység vas, egy egység vízjég és egy egység urán felhasználásával teleportkapu
+- párt lehet készíteni. Az egyes kapukat az ûrhajós késõbb az éppen meglátogatott
+aszteroida szomszédságában tudja pályára állítani. A kapupár két tagja
+összeköttetésben van, az egyikbe belépve a másikban találja magát az utazó
+(ûrhajós, robot stb.). A frissen legyártott kapukat az ûrhajós magával tudja vinni,
+de egy ûrhajósnál egyidõben legfeljebb három kapu lehet. Ha egy teleportkapu
+szomszédságában lévõ aszteroida felrobban, a kapu is megsemmisülés így annak
+párja is. Ha a kaput napszél éri, akkor megkergül és elkezd mozogni. Az
+alapmûködése nem változik, de az aszteroidák között képes lesz szomszédról-
+szomszédra járni, ami rendszeresen meg is történik. Ha egy kapu-párnak csak az
+egyik tagja kapnapszelet, akkor a másik továbbra is az eddigiek szerint, helyhez
+kötve mûködik. Minden más tekintetben a korábban specifikáltaknak megfelelõen
+mûködnek.
+
+A játék kétféleképpen érhet véget. Ha minden telepes meghalt, akkor a játékosok
+veszítettek. Ha azonban sikerült minden fajta nyersanyagból legalább három
+egységet kibányászni és egy közös aszteroidára összegyûjteni, akkor a telepesek
+felépíthetik a bázist és megnyerik a játékot.
